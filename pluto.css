@@ -11,16 +11,14 @@ header{
     display: flex;
     align-items: center;
     background-color: black;
+    justify-content: space-between;
 }
 
 .nav a{
     
     color: #fff;
-    margin: -300px;
-    margin-left: 400px;
     text-decoration: none;
     padding: 4px;
-    cursor: pointer;
     font-weight: 700;
 }
 
@@ -29,14 +27,15 @@ header{
     transform: scale(1.2s);
 }
 .nav img{
-    width: 10%;
+    width: 15%;
 }
 
 .body-inner{
     padding: 150px;
     text-align: center;
-    background-color: #5E00FF;
+    background-color:  #5D00FF;
     color: #fff;
+    font-family: 'Kanit', sans-serif;
 }
 
 .static a{
@@ -62,13 +61,18 @@ header{
 .body-inner2{
     display: flex;
     align-items: center;
-    padding: 150px;
+    padding: 50px;
+    padding-right: 120px;
 }
 
 .body-inner2 img{
     width: 450px;
     height: 450px;
     border-radius: 50%;
+}
+
+.body-inner2 h1{
+    padding: 70px;
 }
 
 
@@ -83,17 +87,16 @@ header{
     height: 500px;
     border-radius: 50%;
     padding: 10px;
-
 }
 
 .real p{
-    padding: 100px;
+    padding: 20px;
 }
 
 .body-inner4{
     display: flex;
     align-items: center;
-    padding: 150px;
+    padding: 60px;
 }
 
 .Tom img{
@@ -101,20 +104,27 @@ header{
     height: 450px;
     border-radius: 50%;
 }
+
+.body-inner4 h1{
+    padding: 20px;
+}
+
+.body-inner4 p{
+    padding: 10px;
+}
 .body-inner5{
     display: flex;
     background-color: black;
     color: #fff;
-    padding: 260px;
+    padding:  0 260px 50px 260px;
 }
 
-.body-inner5 h1{
+.inner5 h1{
     width: 200%;
     font-size: 40px;
     padding: 80px;
     
 }
-
 .inner5 li b{
     color: #FFDE2B;
     font-size: 25px;
@@ -235,380 +245,281 @@ footer{
     margin-top: 50px;
 }
 
-@media (min-width: 390px) and (max-width: 844px){
-.nav{
-    width: 100%;   
-}
-.nav a{
-    margin-left: -10px;
-    padding-inline: 40px;
-    width: 110%;
-    font-size: 9px;
-}
-.nav img{
-    width: 30%;
-}
-.body-inner h1{
-    margin: -70px;
-}
-
-.nav2 a{
-    padding: 40px;
-    line-height: 2;
-}
-.static a:hover {
-    background-color: transparent;
-    
-}
-.body-inner2{
-    flex-direction: column-reverse;
-}
-.body-inner2 img{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    margin: -80px;
-}
-.body-inner2 h1{
-    margin-left: -90px;
-    padding: 10px;
-    width: 300%;
-    margin-top: 70px;
-}
-.body-inner3{
-    flex-direction: column;
-}
-.body-inner3 img{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    margin: -150px;
-}
-.body-inner3 p{
-    margin-left: -90px;
-    padding: 2px;
-    width: 200%;
-    margin-top: 160px;
-}
-.body-inner4{
-    flex-direction: column-reverse;
-}
-.body-inner4 img{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    margin: -150px;
-}
-.body-inner4 h1{
-    margin-left: -90px;
-    padding: 2px;
-    width: 350%;
-    margin-top: 160px;
-}
-.body-inner4 p{
-    margin-left: -90px;
-}
-.body-inner5{
-    flex-direction: column;
-    padding: 1px;
-}
-.body-inner5 h1{
-    margin-inline: -80px;
-    width: 140%;
-    font-size: 35px;
-}
-.inner5 ul{
-    padding: 30px;
-    margin-inline: -20px;
-}
-.inner5b ul{
-    margin-inline: -20px;
-    padding: 1px;
-}
-.inner6{
-    flex-direction: column;
-}
-.body-inner6 h1{
-    margin-inline: -380px;
-    padding: 0 90px;
-}
-.inner6 ul{
-    margin-inline: -900px;
-    padding-right: 200px;
-    list-style-type: none;
-}
-.inner6b li{
-    margin-inline: -240px;
-    padding-right: 200px;
-    list-style-type: none;
-}
-.btn{
-    margin-inline: -200px;
-    margin-top: 50px;
-}
-.footer-sec{
-    flex-direction: column;
-    margin-inline: -200px;
-}
-.meme{
-    width: 30%;
-    margin-inline: -150px;
-}
-.ref{
-    margin-inline: 50px;
-    margin-top: 50px;
-}
-}
-@media (min-width: 360px) and (max-width: 800px){
-    .nav{
-        width: 100%;   
-    }
-    .nav a{
-        margin-left: 5px;
-        padding-inline: 30px;
-        width: 110%;
-        font-size: 9px;
-    }
+@media (min-width: 320px) and (max-width: 568px){
     .nav img{
-        width: 30%;
+        width: 120%;
     }
-    .body-inner h1{
-        margin: -70px;
+    .nav-link {
+        font-size: small;
     }
-    
-    .nav2 a{
-        padding: 40px;
-        line-height: 2;
+    .body-inner{
+        padding: 90px;
     }
-    .static a:hover {
+    .static a:hover{
         background-color: transparent;
-        
     }
     .body-inner2{
         flex-direction: column-reverse;
+        padding: 10px;
     }
     .body-inner2 img{
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
-        margin-bottom: 10px;
-        margin: -80px;
     }
     .body-inner2 h1{
-        margin-left: -90px;
-        padding: 10px;
-        width: 300%;
-        margin-top: 70px;
+        padding: 45px;
     }
     .body-inner3{
         flex-direction: column;
+        padding: 10px;
     }
     .body-inner3 img{
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
-        margin: -150px;
     }
-    .body-inner3 p{
-        margin-left: -90px;
-        padding: 2px;
-        width: 200%;
-        margin-top: 160px;
+    .real p{
+        font-size: 25px;
     }
     .body-inner4{
         flex-direction: column-reverse;
+        padding: 10px;
     }
     .body-inner4 img{
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
-        margin: -150px;
     }
     .body-inner4 h1{
-        margin-left: -90px;
-        padding: 2px;
-        width: 350%;
-        margin-top: 160px;
+        padding: 35px;
     }
     .body-inner4 p{
-        margin-left: -90px;
+        padding-bottom: 50px;
     }
     .body-inner5{
         flex-direction: column;
-        padding: 1px;
+        padding: 50px;
     }
-    .body-inner5 h1{
-        margin-inline: -50px;
-        width: 140%;
-        font-size: 35px;
+    .inner5 h1{
+        width: 150%;
+        padding-left: 8px;
+        padding-bottom: 20px;
     }
-    .inner5 ul{
-        padding: 30px;
-        margin-inline: -20px;
+    .inner5 ul li b{
+        padding: 5px;
     }
-    .inner5b ul{
-        margin-inline: -20px;
-        padding: 1px;
+    .inner5b{
+        padding: 6px;
+    }
+    .inner5b ul li b{
+        padding: 2px;
     }
     .inner6{
         flex-direction: column;
     }
+    .inner6b{
+        padding: 25px;
+    }
+    .body-inner6{
+        width: fit-content;
+        padding: 20px;
+    }
     .body-inner6 h1{
-        margin-inline: -380px;
-        padding: 0 90px;
-    }
-    .inner6 ul{
-        margin-inline: -900px;
-        padding-right: 200px;
-        list-style-type: none;
-    }
-    .inner6b li{
-        margin-inline: -240px;
-        padding-right: 200px;
-        list-style-type: none;
-    }
-    .btn{
-        margin-inline: -200px;
-        margin-top: 50px;
+        padding: 0 50px;
+        font-size: 35px;
+        line-height: 1.5; 
     }
     .footer-sec{
         flex-direction: column;
-        margin-inline: -170px;
+        width: fit-content;
     }
-    .meme{
-        width: 30%;
-        margin-inline: -150px;
+    .meme img{
+        width: 80%;
+        padding: 5px;
     }
-    .ref{
-        margin-inline: 50px;
-        margin-top: 50px;
-    }
-    }
+}
 
-    @media (min-width: 320px) and (max-width: 568px){
-        .nav{
-            width: 100%;   
-        }
-        .nav a{
-            margin-left: 5px;
-            padding-inline: 30px;
-            width: 120%;
-            font-size: 9px;
-        }
-        .nav img{
-            width: 30%;
-        }
-        .body-inner h1{
-            margin: -70px;
-        }
-        
-        .nav2 a{
-            padding: 40px;
-            line-height: 2;
-        }
-        .static a:hover {
-            background-color: transparent;
-            
-        }
-        .body-inner2{
-            flex-direction: column-reverse;
-        }
-        .body-inner2 img{
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-            margin: -80px;
-        }
-        .body-inner2 h1{
-            margin-left: -90px;
-            padding: 50px;
-            width: 270%;
-            margin-top: 90px;
-        }
-        .body-inner3{
-            flex-direction: column;
-        }
-        .body-inner3 img{
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            margin: -150px;
-        }
-        .body-inner3 p{
-            margin-left: -90px;
-            padding: 2px;
-            width: 200%;
-            margin-top: 160px;
-        }
-        .body-inner4{
-            flex-direction: column-reverse;
-        }
-        .body-inner4 img{
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            margin: -150px;
-        }
-        .body-inner4 h1{
-            margin-left: -90px;
-            padding: 15px;
-            width: 600%;
-            margin-top: 160px;
-        }
-        .body-inner4 p{
-            margin-left: -90px;
-        }
-        .body-inner5{
-            flex-direction: column;
-            padding: 1px;
-        }
-        .body-inner5 h1{
-            margin-inline: -50px;
-            width: 140%;
-            font-size: 35px;
-        }
-        .inner5 ul{
-            padding: 30px;
-            margin-inline: -20px;
-        }
-        .inner5b ul{
-            margin-inline: -20px;
-            padding: 1px;
-        }
-        .inner6{
-            flex-direction: column;
-        }
-        .body-inner6 h1{
-            margin-inline: -380px;
-            padding: 0 90px;
-        }
-        .inner6 ul{
-            margin-inline: -900px;
-            padding-right: 200px;
-            list-style-type: none;
-        }
-        .inner6b li{
-            margin-inline: -240px;
-            padding-right: 200px;
-            list-style-type: none;
-        }
-        .btn{
-            margin-inline: -200px;
-            margin-top: 50px;
-        }
-        .footer-sec{
-            flex-direction: column;
-            margin-inline: -170px;
-        }
-        .meme{
-            width: 30%;
-            margin-inline: -150px;
-        }
-        .ref{
-            margin-inline: 50px;
-            margin-top: 50px;
-        }
-        }
+@media (min-width: 360px) and (max-width: 800px){
+    .nav img{
+        width: 100%;
+    }
+    .nav-link{
+        margin: 5px;
+    }
+    .body-inner{
+        padding: 60px;
+    }
+    .static a:hover{
+        background-color: transparent;
+    }
+    .body-inner2{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .body-inner2 img{
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+    }
+    .body-inner2 h1{
+        padding: 45px;
+    }
+    .body-inner3{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .body-inner3 img{
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+    }
+    .real p{
+        font-size: 25px;
+    }
+    .body-inner4{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .body-inner4 img{
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+    }
+    .body-inner4 h1{
+        padding: 35px;
+    }
+    .body-inner4 p{
+        padding-bottom: 50px;
+    }
+    .body-inner5{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .inner5 h1{
+        width: 150%;
+        padding-left: 8px;
+        padding-bottom: 30px;
+    }
+    .inner5 ul li b{
+        padding: 5px;
+    }
+    .inner5b{
+        padding: 6px;
+    }
+    .inner5b ul li b{
+        padding: 2px;
+    }
+    .inner6{
+        flex-direction: column;
+    }
+    .body-inner6{
+        width: fit-content;
+        padding: 20px;
+    }
+    .body-inner6 h1{
+        padding: 0 80px;
+        font-size: 35px;
+        line-height: 1.5; 
+    }
+    .footer-sec{
+        flex-direction: column;
+        width: 150%;
+    }
+    .meme img{
+        width: 80%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 844px){
+    .nav img{
+        width: 90%;
+    }
+    .nav-link{
+        margin: 5px;
+    }
+    .body-inner{
+        padding: 90px;
+    }
+    .static a:hover{
+        background-color: transparent;
+    }
+    .body-inner2{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .body-inner2 img{
+        width: 380px;
+        height: 380px;
+        border-radius: 50%;
+    }
+    .body-inner2 h1{
+        padding: 45px;
+    }
+    .body-inner3{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .body-inner3 img{
+        width: 380px;
+        height: 380px;
+        border-radius: 50%;
+    }
+    .real p{
+        font-size: 25px;
+    }
+    .body-inner4{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .body-inner4 img{
+        width: 380px;
+        height: 380px;
+        border-radius: 50%;
+    }
+    .body-inner4 h1{
+        padding: 35px;
+    }
+    .body-inner4 p{
+        padding-bottom: 50px;
+    }
+    .body-inner5{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .inner5 h1{
+        width: 150%;
+        padding-left: 8px;
+    }
+    .inner5 ul li b{
+        padding: 5px;
+    }
+    .inner5b{
+        padding: 6px;
+    }
+    .inner5b ul li b{
+        padding: 2px;
+    }
+    .inner6{
+        flex-direction: column;
+    }
+    .body-inner6{
+        width: fit-content;
+        padding: 20px;
+    }
+    .body-inner6 h1{
+        padding: 0 80px;
+        font-size: 35px;
+        line-height: 1.5; 
+    }
+    .footer-sec{
+        flex-direction: column;
+        width: fit-content;
+    }
+    .meme img{
+        width: 80%;
+        padding: 5px;
+    }
+}
     
