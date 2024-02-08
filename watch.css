@@ -367,3 +367,211 @@ span :last-child{
         padding: 20px 10px;
     }
 }
+
+
+@media (min-width: 320px) and (max-width: 568px){
+    .nav img{
+        width: 70%;
+    }
+    .nav-link{
+        margin: 5px;
+        font-size: 14px;
+    }
+    .top-body{
+        padding: 60px;
+    }
+    .nav2{
+        padding: 3px;
+    }
+    .body1{
+        flex-direction: row;
+        padding: 2px;
+        width: 100%;
+    }
+    .inner1{
+        display: flex;
+        flex-direction: column;
+    }
+    .inner1 img{
+        padding: 2px 20px;
+        width: 400%;
+    }
+    .inner1a{
+        padding: 250px 0px;
+        padding-right: 1px;
+        width: 900%;
+    }
+    .iconsb{
+        width: fit-content;
+        padding: -70px;
+        padding-bottom: 50px;
+    }
+    .body1a{
+        padding: 5px 0;
+        height: 600px;
+    }
+    .body2{
+        padding-top: -250px;
+    }
+    .body2a{ 
+        text-align: left;
+        height: 550px;
+    }
+    .inner2 img{
+        width: 800%;
+        padding: 250px 0;
+    }
+    .inner2a{
+        width: 1550%;
+        padding: 5px 0;
+    }
+    .some button{
+        padding: 10px 30px;
+        margin-top: 15px;
+    }
+    .iconsb img{
+        width: 10%;
+        padding: 25px;
+    }
+    .body3a{
+        flex-direction: column;
+    }
+    .body3a img{
+        width: 85%;
+        padding: 20px;
+    }
+    .inner3a{
+        padding: 5px;
+        padding-bottom: 25px;
+    }
+    .butt{
+        padding: 20px;
+    }
+    .body4a{
+        flex-direction: column;
+    }
+    .inner4 img{
+        width: 90%;
+        padding: 5px 20px;
+    }
+    .inner4a{
+        padding: 2px;
+    }
+    .body5a{
+        flex-direction: column;
+    }
+    .inner5 img{
+        width: 80%;
+        padding: 0 35px;
+    }
+    .inner5a{
+        padding: 15px;
+    }
+    .inner7{
+        padding: 20px 10px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .nav img{
+        width: 50%;
+    }
+    .nav-link{
+        margin: 5px;
+        font-size: 20px;
+    }
+    .top-body{
+        padding: 120px;
+    }
+    .nav2{
+        padding: 3px;
+    }
+    .body1{
+        flex-direction: row;
+        padding: 2px;
+        width: 100%;
+    }
+    .inner1{
+        display: flex;
+        flex-direction: column;
+    }
+    .inner1 img{
+        padding: 20px 60px;
+        width: 500%;
+    }
+    .inner1a{
+        padding: 440px 1px;
+        padding-right: 1px;
+        width: 900%;
+    }
+    .iconsb{
+        width: fit-content;
+        padding: 50px;
+        padding-bottom: 50px;
+    }
+    .body1a{
+        padding: 5px 0;
+        height: 600px;
+    }
+    .body2{
+        padding-top: -250px;
+    }
+    .body2a{ 
+        text-align: left;
+        height: 550px;
+    }
+    .inner2 img{
+        width: 800%;
+        padding: 250px 0;
+    }
+    .inner2a{
+        width: 1550%;
+        padding: 5px 0;
+    }
+    .some button{
+        padding: 10px 30px;
+        margin-top: 15px;
+    }
+    .iconsb img{
+        width: 10%;
+        padding: 25px;
+    }
+    .body3a{
+        flex-direction: column;
+    }
+    .body3a img{
+        width: 85%;
+        padding: 20px;
+    }
+    .inner3a{
+        padding: 5px;
+        padding-bottom: 25px;
+    }
+    .butt{
+        padding: 20px;
+    }
+    .body4a{
+        flex-direction: column;
+    }
+    .inner4 img{
+        width: 90%;
+        padding: 5px 20px;
+    }
+    .inner4a{
+        padding: 2px;
+    }
+    .body5a{
+        flex-direction: column;
+    }
+    .inner5 img{
+        width: 80%;
+        padding: 0 35px;
+    }
+    .inner5a{
+        padding: 15px;
+    }
+    .inner7{
+        padding: 20px 10px;
+    }
+}
